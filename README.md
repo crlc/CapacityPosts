@@ -19,7 +19,7 @@ npm start
 then open ```http://localhost:3000/``` to see your app.
 
 ## Instructions to Test
-Test the appl with
+Test the app with
 ```
 npm test
 ```
