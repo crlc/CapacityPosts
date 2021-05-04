@@ -72,7 +72,7 @@ const Post = (props) => {
             <div title='Delete post' className='remove' onClick={handleDelete}>+</div>
             <div className='post-title'><label>Title: </label>{props.title}</div>
             <div className='post-body'><label>Post: </label>{props.body}</div>
-            <div className='user'>Name: {props.user.name}</div>
+            <div className='user'>Name: {props.user ? props.user.name : props.userId}</div>
         </div>
     )
 }
