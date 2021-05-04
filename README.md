@@ -1,6 +1,6 @@
 # Capacity Posts
 
-## Instructions to Build
+## Instructions to Build for Production
 Build the project with
 ```
 npm run build
@@ -11,7 +11,7 @@ npm install -g serve
 serve -s build
 ```
 
-## Instructions to Run
+## Instructions to Run in Development
 Run the app with
 ```
 npm start
