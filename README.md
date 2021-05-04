@@ -1,4 +1,5 @@
 # Capacity Posts
+This is a React web application that gathers, adds, and displays posts to and from ```http://jsonplaceholder.typicode.com```. Note: posts do not get saved on the typicode server.
 
 ## Instructions to Build for Production
 Build the project with
