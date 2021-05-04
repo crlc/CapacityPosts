@@ -5,7 +5,7 @@ Build the project with
 ```
 npm run build
 ```
-Serve the page to access it via ```http://localhost:3000/```
+Serve the page to access it via ```http://localhost:5000/```
 ```
 npm install -g serve
 serve -s build
