@@ -28,7 +28,8 @@ export class PostForm extends React.Component {
         fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
             body: JSON.stringify({
-                ...this.state,
+                title,
+                body,
                 userId: 1,
             }),
             headers: {
