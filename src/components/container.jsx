@@ -57,7 +57,8 @@ class Container extends React.Component {
     render() {
         // const {posts, }
         return (
-            <div>Welcome to Capacity Posts
+            <div>
+                <h1>Welcome to Capacity Posts</h1>
                 <Banner message={this.state.message} error={this.state.error} />
                 <PostForm handleAddPost={this.handleAddPost} handleMessage={this.handleMessage} />
                 {this.state.posts.map(post => <Post key={post.id} {...post} user={this.state.users[post.userId]} handleDelete={this.handleDelete} />)}
