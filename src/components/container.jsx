@@ -33,7 +33,7 @@ class Container extends React.Component {
 
     handleAddPost = (post) => {
         this.setState({
-            posts: this.state.posts.concat(post)
+            posts: [post].concat(this.state.posts)
         }, this.handleMessage('Successfully posted'));
     }
 
