@@ -1,4 +1,9 @@
 # Capacity Posts
+
+[Website link][domain]
+
+[domain]: https://shielded-bayou-64493.herokuapp.com/
+
 This is a React web application that gathers, adds, and displays posts to and from ```https://jsonplaceholder.typicode.com```. Note: posts do not get saved on the typicode server.
 
 ## Instructions to Build for Production
